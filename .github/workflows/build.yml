@@ -62,7 +62,7 @@ jobs:
           sudo apt install libpulse-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-cursor0 libxkbcommon-x11-0 libgstreamer-plugins-base1.0-0 zsync xvfb
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v3
+        uses: jdpurcell/install-qt-action@v5
         with:
           cache: true
           version: ${{ env.QT_VERSION }}
